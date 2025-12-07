@@ -5,25 +5,25 @@ public class assignment01 {
 
         Scanner input = new Scanner(System.in);
 
-        // === Non-Primitive Data Type ===
-        System.out.print("Enter student name: ");
+        // Non-Primitive Data Type 
+        System.out.print("Enter student name");
         String name = input.nextLine();
 
-        // === Primitive Data Types ===
-        System.out.print("Enter marks in Math: ");
+        // Primitive Data Types
+        System.out.print("Enter marks in Math");
         int math = input.nextInt();
 
-        System.out.print("Enter marks in Science: ");
+        System.out.print("Enter marks in Science");
         int science = input.nextInt();
 
-        System.out.print("Enter marks in English: ");
+        System.out.print("Enter marks in English");
         int english = input.nextInt();
 
         // Calculate total and average
         int total = math + science + english;        // primitive
         double average = total / 3.0;                // primitive (double)
 
-        // === Condition (if-else) ===
+        // Condition (if-else)
         String result; // Non-primitive (String)
         if (average >= 40) {
             result = "Pass";
@@ -31,8 +31,8 @@ public class assignment01 {
             result = "Fail";
         }
 
-        // === Output ===
-        System.out.println("\n----- Student Report -----");
+        // Output
+        System.out.println("\nStudent Report");
         System.out.println("Name: " + name);
         System.out.println("Math: " + math);
         System.out.println("Science: " + science);
@@ -42,3 +42,4 @@ public class assignment01 {
         System.out.println("Result: " + result);
     }
 }
+
