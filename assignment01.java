@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class assignment01 {
     public static void main(String[] args) {
